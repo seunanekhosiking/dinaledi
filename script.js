@@ -1,0 +1,10 @@
+const header=document.querySelector('.site-header');
+const menu=document.querySelector('.menu');
+const nav=document.querySelector('#nav');
+menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open))});
+nav.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>nav.classList.remove('open')));
+const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(item=>observer.observe(item));
+window.addEventListener('scroll',()=>{header.classList.toggle('scrolled',scrollY>25);const hero=document.querySelector('[data-parallax]');if(hero&&scrollY<innerHeight)hero.style.transform=`translateY(${scrollY*.12}px) scale(1.02)`},{passive:true});
+const glow=document.querySelector('.cursor-glow');if(matchMedia('(pointer:fine)').matches)window.addEventListener('mousemove',event=>{glow.style.left=`${event.clientX}px`;glow.style.top=`${event.clientY}px`});
+document.querySelector('#year').textContent=new Date().getFullYear();
