@@ -1,0 +1,769 @@
+
+
+<!doctype html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dinaledi Leisure Resort - Luxury Paradise Getaway</title>
+  <meta name="description" content="Dinaledi Leisure Resort - Luxury Paradise Getaway for Weddings, Parties, and Celebrations in South Africa">
+  <meta name="keywords" content="luxury resort, wedding venue, event hosting, South Africa, Dinaledi, paradise getaway">
+  <meta name="author" content="Dinaledi Leisure Resort">
+  <meta property="og:title" content="Dinaledi Leisure Resort - Luxury Paradise Getaway">
+  <meta property="og:description" content="Elegant Weddings • Memorable Parties • Luxurious Celebrations • Ultimate Relaxation">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80">
+  <meta property="og:url" content="https://dinalediresort.com">
+  <meta name="twitter:card" content="summary_large_image">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GA_MEASUREMENT_ID'); // Replace with your GA4 Measurement ID
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      box-sizing: border-box;
+    }
+    
+    h1, h2, h3, h4, h5 {
+      font-family: 'Playfair Display', serif;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    .hero-gradient {
+      background: linear-gradient(135deg, rgba(5, 150, 105, 0.85) 0%, rgba(16, 185, 129, 0.9) 50%, rgba(255, 255, 255, 0.1) 100%);
+    }
+    
+    .hero-image {
+      background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    
+    .section-image-1 {
+      background-image: url('https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80');
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .section-image-2 {
+      background-image: url('https://images.unsplash.com/photo-1519167758481-83f550bb49b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2094&q=80');
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .gallery-image-1 {
+      background-image: url('https://images.unsplash.com/photo-1564501049418-3c27787d01e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    }
+    
+    .gallery-image-2 {
+      background-image: url('https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    }
+    
+    .gallery-image-3 {
+      background-image: url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    }
+    
+    .gallery-image-4 {
+      background-image: url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    }
+    
+    .gallery-image-5 {
+      background-image: url('https://images.unsplash.com/photo-1592432678016-e910b452f9a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    }
+    
+    .gallery-image-6 {
+      background-image: url('https://images.unsplash.com/photo-1519167758481-83f550bb49b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2094&q=80');
+    }
+    
+    .amenity-card {
+      transition: all 0.4s ease;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .amenity-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+      border-color: rgba(16, 185, 129, 0.3);
+    }
+    
+    .event-card {
+      transition: all 0.3s ease;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .event-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.7));
+      z-index: 1;
+    }
+    
+    .event-card-content {
+      position: relative;
+      z-index: 2;
+    }
+    
+    .event-card:hover {
+      transform: scale(1.05);
+    }
+    
+    .gallery-item {
+      transition: all 0.4s ease;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 12px;
+      overflow: hidden;
+      position: relative;
+    }
+    
+    .gallery-item::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.3), transparent);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    
+    .gallery-item:hover {
+      transform: scale(1.03);
+    }
+    
+    .gallery-item:hover::after {
+      opacity: 1;
+    }
+    
+    .nav-link {
+      transition: all 0.3s ease;
+      position: relative;
+    }
+    
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: currentColor;
+      transition: width 0.3s ease;
+    }
+    
+    .nav-link:hover::after {
+      width: 100%;
+    }
+    
+    .floating-animation {
+      animation: float 6s ease-in-out infinite;
+    }
+    
+    @keyframes float {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-20px) rotate(5deg); }
+    }
+    
+    .pulse-animation {
+      animation: pulse 2s ease-in-out infinite;
+    }
+    
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    
+    .glass-effect {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    .text-shadow {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    
+    .text-stroke {
+      -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
+    }
+  </style>
+</head>
+<body class="h-full bg-gray-50">
+  <div id="app" class="w-full h-full overflow-auto">
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50 transition-all duration-300 glass-effect" id="navbar">
+      <div class="max-w-7xl mx-auto px-6 py-4">
+        <div class="flex items-center justify-between">
+          <div class="text-2xl font-bold flex items-center gap-2" id="nav-logo">
+            <div class="text-3xl">✨</div>
+            <div>Dinaledi Leisure Resort</div>
+          </div>
+          <div class="hidden md:flex space-x-8">
+            <a href="#home" class="nav-link font-medium">Home</a>
+            <a href="#about" class="nav-link font-medium">About</a>
+            <a href="#amenities" class="nav-link font-medium">Amenities</a>
+            <a href="#events" class="nav-link font-medium">Events</a>
+            <a href="#gallery" class="nav-link font-medium">Gallery</a>
+            <a href="#contact" class="nav-link font-medium">Contact</a>
+          </div>
+          <button id="mobile-menu-btn" class="md:hidden p-2">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2">
+          <a href="#home" class="block py-2 nav-link">Home</a>
+          <a href="#about" class="block py-2 nav-link">About</a>
+          <a href="#amenities" class="block py-2 nav-link">Amenities</a>
+          <a href="#events" class="block py-2 nav-link">Events</a>
+          <a href="#gallery" class="block py-2 nav-link">Gallery</a>
+          <a href="#contact" class="block py-2 nav-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center relative pt-20 hero-image">
+      <div class="absolute inset-0 hero-gradient"></div>
+      <div class="max-w-7xl mx-auto px-6 py-20 w-full relative z-10">
+        <div class="text-center text-white">
+          <div class="text-7xl mb-6 floating-animation">
+            🌟
+          </div>
+          <h1 id="hero-tagline" class="text-5xl md:text-7xl font-bold mb-6 text-shadow">Where Dreams Meet Paradise</h1>
+          <p id="hero-subtitle" class="text-xl md:text-2xl mb-8 opacity-95 text-shadow">Elegant Weddings • Memorable Parties • Luxurious Celebrations • Ultimate Relaxation</p>
+          <button id="cta-button" class="px-10 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105 hover:shadow-2xl pulse-animation glass-effect text-white border border-white/20">
+            Book Your Dream Event
+          </button>
+        </div>
+      </div>
+      <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+        </svg>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 relative section-image-1">
+      <div class="absolute inset-0 bg-black/40"></div>
+      <div class="max-w-7xl mx-auto px-6 relative z-10">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div class="glass-effect rounded-2xl p-8 backdrop-blur-sm">
+            <h2 id="about-title" class="text-4xl md:text-5xl font-bold mb-6 text-white">Welcome to Paradise</h2>
+            <p id="about-description" class="text-lg mb-6 leading-relaxed text-white/90">
+              Nestled amidst lush tropical gardens with breathtaking mountain views, Dinaledi Leisure Resort is your sanctuary for creating unforgettable moments. Our award-winning venue combines natural beauty with luxury amenities to make every celebration truly magical.
+            </p>
+            <div class="grid grid-cols-2 gap-6 mt-8">
+              <div class="text-center p-6 rounded-xl glass-effect">
+                <div class="text-4xl mb-3">
+                  🎉
+                </div>
+                <div class="text-3xl font-bold mb-2 text-white">
+                  500+
+                </div>
+                <div class="text-sm opacity-90 text-white">
+                  Successful Events
+                </div>
+              </div>
+              <div class="text-center p-6 rounded-xl glass-effect">
+                <div class="text-4xl mb-3">
+                  💑
+                </div>
+                <div class="text-3xl font-bold mb-2 text-white">
+                  200+
+                </div>
+                <div class="text-sm opacity-90 text-white">
+                  Dream Weddings
+                </div>
+              </div>
+              <div class="text-center p-6 rounded-xl glass-effect">
+                <div class="text-4xl mb-3">
+                  ⭐
+                </div>
+                <div class="text-3xl font-bold mb-2 text-white">
+                  4.9/5
+                </div>
+                <div class="text-sm opacity-90 text-white">
+                  Guest Rating
+                </div>
+              </div>
+              <div class="text-center p-6 rounded-xl glass-effect">
+                <div class="text-4xl mb-3">
+                  🏊
+                </div>
+                <div class="text-3xl font-bold mb-2 text-white">
+                  3
+                </div>
+                <div class="text-sm opacity-90 text-white">
+                  Swimming Pools
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-2xl overflow-hidden shadow-2xl">
+            <div class="h-96 gallery-image-3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities" class="py-20 bg-gradient-to-b from-gray-50 to-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 id="amenities-title" class="text-4xl md:text-5xl font-bold text-center mb-16">World-Class Luxury Amenities</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="amenity-card rounded-2xl p-8 shadow-lg bg-white">
+            <div class="text-6xl mb-4">
+              🏊‍♀️
+            </div>
+            <h3 class="text-2xl font-bold mb-4">Infinity Pools</h3>
+            <p class="leading-relaxed mb-4">Three stunning pools including our signature infinity pool with panoramic views of the valley.</p>
+            <ul class="space-y-2 text-sm opacity-75">
+              <li>✓ Heated pools available year-round</li>
+              <li>✓ Professional lifeguards on duty</li>
+              <li>✓ Poolside luxury cabanas</li>
+            </ul>
+          </div>
+          <div class="amenity-card rounded-2xl p-8 shadow-lg bg-white">
+            <div class="text-6xl mb-4">
+              💒
+            </div>
+            <h3 class="text-2xl font-bold mb-4">Grand Ballroom</h3>
+            <p class="leading-relaxed mb-4">Elegant indoor and outdoor wedding venues with customizable décor and professional coordination.</p>
+            <ul class="space-y-2 text-sm opacity-75">
+              <li>✓ Garden ceremony locations</li>
+              <li>✓ Accommodates 300+ guests</li>
+              <li>✓ Bridal suite & preparation rooms</li>
+            </ul>
+          </div>
+          <div class="amenity-card rounded-2xl p-8 shadow-lg bg-white">
+            <div class="text-6xl mb-4">
+              🎪
+            </div>
+            <h3 class="text-2xl font-bold mb-4">Event Pavilions</h3>
+            <p class="leading-relaxed mb-4">Versatile spaces perfect for corporate events, celebrations, and private parties of all sizes.</p>
+            <ul class="space-y-2 text-sm opacity-75">
+              <li>✓ State-of-the-art AV systems</li>
+              <li>✓ Flexible seating arrangements</li>
+              <li>✓ Professional event planning</li>
+            </ul>
+          </div>
+          <div class="amenity-card rounded-2xl p-8 shadow-lg bg-white">
+            <div class="text-6xl mb-4">
+              🍽️
+            </div>
+            <h3 class="text-2xl font-bold mb-4">Gourmet Dining</h3>
+            <p class="leading-relaxed mb-4">Award-winning restaurants with farm-to-table cuisine and custom catering by master chefs.</p>
+            <ul class="space-y-2 text-sm opacity-75">
+              <li>✓ Multiple dining venues</li>
+              <li>✓ Private chef experiences</li>
+              <li>✓ Custom menu creation</li>
+            </ul>
+          </div>
+          <div class="amenity-card rounded-2xl p-8 shadow-lg bg-white">
+            <div class="text-6xl mb-4">
+              🎮
+            </div>
+            <h3 class="text-2xl font-bold mb-4">Family Entertainment</h3>
+            <p class="leading-relaxed mb-4">Supervised play zones, arcade, and activities designed for guests of all ages.</p>
+            <ul class="space-y-2 text-sm opacity-75">
+              <li>✓ Age-appropriate activity zones</li>
+              <li>✓ Trained supervisors</li>
+              <li>✓ Indoor & outdoor facilities</li>
+            </ul>
+          </div>
+          <div class="amenity-card rounded-2xl p-8 shadow-lg bg-white">
+            <div class="text-6xl mb-4">
+              🌿
+            </div>
+            <h3 class="text-2xl font-bold mb-4">Serenity Spa</h3>
+            <p class="leading-relaxed mb-4">Luxurious spa treatments, thermal suites, and wellness programs for complete rejuvenation.</p>
+            <ul class="space-y-2 text-sm opacity-75">
+              <li>✓ Professional therapists</li>
+              <li>✓ Couples treatment rooms</li>
+              <li>✓ Holistic wellness programs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="py-20 relative section-image-2">
+      <div class="absolute inset-0 bg-gradient-to-r from-black/60 to-black/40"></div>
+      <div class="max-w-7xl mx-auto px-6 relative z-10">
+        <h2 id="events-title" class="text-4xl md:text-5xl font-bold text-center mb-16 text-white">Perfect for Every Occasion</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="event-card rounded-xl p-8 text-center shadow-lg h-64 event-card-1">
+            <div class="event-card-content">
+              <div class="text-6xl mb-4">
+                💍
+              </div>
+              <h3 class="text-xl font-bold mb-2 text-white">Weddings</h3>
+              <p class="text-sm opacity-90 text-white">Make your special day unforgettable with our stunning venues and dedicated wedding planners</p>
+            </div>
+          </div>
+          <div class="event-card rounded-xl p-8 text-center shadow-lg h-64 event-card-2">
+            <div class="event-card-content">
+              <div class="text-6xl mb-4">
+                🎂
+              </div>
+              <h3 class="text-xl font-bold mb-2 text-white">Birthday Parties</h3>
+              <p class="text-sm opacity-90 text-white">Celebrate birthdays in style with custom themes, catering, and entertainment options</p>
+            </div>
+          </div>
+          <div class="event-card rounded-xl p-8 text-center shadow-lg h-64 event-card-3">
+            <div class="event-card-content">
+              <div class="text-6xl mb-4">
+                🎓
+              </div>
+              <h3 class="text-xl font-bold mb-2 text-white">Corporate Events</h3>
+              <p class="text-sm opacity-90 text-white">Host conferences, team building, and corporate functions with full business amenities</p>
+            </div>
+          </div>
+          <div class="event-card rounded-xl p-8 text-center shadow-lg h-64 event-card-4">
+            <div class="event-card-content">
+              <div class="text-6xl mb-4">
+                👨‍👩‍👧‍👦
+              </div>
+              <h3 class="text-xl font-bold mb-2 text-white">Family Gatherings</h3>
+              <p class="text-sm opacity-90 text-white">Reunions, anniversaries, and family celebrations in a relaxed, beautiful setting</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 id="gallery-title" class="text-4xl md:text-5xl font-bold text-center mb-16">Experience Our Paradise</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+          <div class="gallery-item gallery-image-1 rounded-xl">
+            <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/70 to-transparent">
+              <h4 class="text-white font-bold">Infinity Pool</h4>
+              <p class="text-white/80 text-sm">Breathtaking sunset views</p>
+            </div>
+          </div>
+          <div class="gallery-item gallery-image-2 rounded-xl">
+            <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/70 to-transparent">
+              <h4 class="text-white font-bold">Wedding Ceremony</h4>
+              <p class="text-white/80 text-sm">Garden paradise</p>
+            </div>
+          </div>
+          <div class="gallery-item gallery-image-3 rounded-xl">
+            <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/70 to-transparent">
+              <h4 class="text-white font-bold">Luxury Suites</h4>
+              <p class="text-white/80 text-sm">Premium accommodations</p>
+            </div>
+          </div>
+          <div class="gallery-item gallery-image-4 rounded-xl">
+            <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/70 to-transparent">
+              <h4 class="text-white font-bold">Fine Dining</h4>
+              <p class="text-white/80 text-sm">Gourmet experiences</p>
+            </div>
+          </div>
+          <div class="gallery-item gallery-image-5 rounded-xl">
+            <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/70 to-transparent">
+              <h4 class="text-white font-bold">Spa Retreat</h4>
+              <p class="text-white/80 text-sm">Ultimate relaxation</p>
+            </div>
+          </div>
+          <div class="gallery-item gallery-image-6 rounded-xl">
+            <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/70 to-transparent">
+              <h4 class="text-white font-bold">Event Spaces</h4>
+              <p class="text-white/80 text-sm">Versatile venues</p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-12">
+          <button class="px-8 py-3 rounded-full border-2 font-semibold transition-all duration-300 hover:bg-black hover:text-white">
+            View More Photos
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">What Our Guests Say</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-gray-50 rounded-2xl p-8 shadow-lg">
+            <div class="text-5xl mb-4">💫</div>
+            <p class="text-lg mb-6 italic">"Our wedding at Dinaledi was absolutely magical. The venue was stunning, and the staff went above and beyond to make our special day perfect."</p>
+            <div class="flex items-center">
+              <div class="w-12 h-12 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full flex items-center justify-center text-white font-bold mr-4">SJ</div>
+              <div>
+                <div class="font-bold">Sarah & John</div>
+                <div class="text-sm opacity-75">June 2024 Wedding</div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-gray-50 rounded-2xl p-8 shadow-lg">
+            <div class="text-5xl mb-4">🎉</div>
+            <p class="text-lg mb-6 italic">"The perfect venue for our corporate retreat. Beautiful surroundings, excellent facilities, and outstanding service throughout our stay."</p>
+            <div class="flex items-center">
+              <div class="w-12 h-12 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full flex items-center justify-center text-white font-bold mr-4">MT</div>
+              <div>
+                <div class="font-bold">Michael Thompson</div>
+                <div class="text-sm opacity-75">TechCorp CEO</div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-gray-50 rounded-2xl p-8 shadow-lg">
+            <div class="text-5xl mb-4">🌟</div>
+            <p class="text-lg mb-6 italic">"From the moment we arrived, we felt like royalty. The attention to detail and the breathtaking beauty of the resort made our anniversary unforgettable."</p>
+            <div class="flex items-center">
+              <div class="w-12 h-12 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full flex items-center justify-center text-white font-bold mr-4">AD</div>
+              <div>
+                <div class="font-bold">Anna & David</div>
+                <div class="text-sm opacity-75">25th Anniversary</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gradient-to-br from-emerald-50 to-teal-50">
+      <div class="max-w-4xl mx-auto px-6">
+        <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">Get In Touch</h2>
+        <p class="text-center text-lg mb-12 text-gray-700">
+          Ready to create unforgettable memories? Contact our events team directly to discuss your special occasion.
+        </p>
+        <div class="grid md:grid-cols-3 gap-6 text-center">
+          <div class="p-8 rounded-xl bg-white shadow-lg hover:shadow-xl transition-shadow">
+            <div class="text-6xl mb-4">
+              📍
+            </div>
+            <h4 class="font-bold text-xl mb-3">Visit Us</h4>
+            <p class="text-gray-600">123 Paradise Lane<br>
+            Scenic Valley, SV 12345</p>
+          </div>
+          <div class="p-8 rounded-xl bg-white shadow-lg hover:shadow-xl transition-shadow">
+            <div class="text-6xl mb-4">
+              📞
+            </div>
+            <h4 class="font-bold text-xl mb-3">Call Us</h4>
+            <p class="text-gray-600">+27 (0) 123-4567<br>
+            +27 (0) 123-4568</p>
+          </div>
+          <div class="p-8 rounded-xl bg-white shadow-lg hover:shadow-xl transition-shadow">
+            <div class="text-6xl mb-4">
+              ✉️
+            </div>
+            <h4 class="font-bold text-xl mb-3">Email Us</h4>
+            <p class="text-gray-600">info@dinaledi.com<br>
+            events@dinaledi.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-gray-900 text-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="grid md:grid-cols-4 gap-8 mb-8">
+          <div>
+            <h3 class="font-bold text-xl mb-4 flex items-center gap-2">
+              <div class="text-2xl">✨</div>
+              Dinaledi Resort
+            </h3>
+            <p class="text-sm opacity-75">Creating unforgettable memories in paradise since 2010.</p>
+            <div class="flex gap-4 mt-4">
+              <div class="p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors cursor-pointer">📷</div>
+              <div class="p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors cursor-pointer">📘</div>
+              <div class="p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors cursor-pointer">📱</div>
+            </div>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-4">Quick Links</h4>
+            <ul class="space-y-2 text-sm">
+              <li><a href="#home" class="opacity-75 hover:opacity-100 hover:text-emerald-300 transition-colors">Home</a></li>
+              <li><a href="#about" class="opacity-75 hover:opacity-100 hover:text-emerald-300 transition-colors">About Us</a></li>
+              <li><a href="#amenities" class="opacity-75 hover:opacity-100 hover:text-emerald-300 transition-colors">Amenities</a></li>
+              <li><a href="#events" class="opacity-75 hover:opacity-100 hover:text-emerald-300 transition-colors">Events</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-4">Services</h4>
+            <ul class="space-y-2 text-sm">
+              <li class="opacity-75 hover:opacity-100 transition-opacity">Wedding Planning</li>
+              <li class="opacity-75 hover:opacity-100 transition-opacity">Event Hosting</li>
+              <li class="opacity-75 hover:opacity-100 transition-opacity">Catering Services</li>
+              <li class="opacity-75 hover:opacity-100 transition-opacity">Accommodation</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-4">Opening Hours</h4>
+            <ul class="space-y-2 text-sm">
+              <li class="opacity-75">Mon - Thu: 8am - 10pm</li>
+              <li class="opacity-75">Fri - Sat: 8am - 12am</li>
+              <li class="opacity-75">Sunday: 8am - 10pm</li>
+              <li class="opacity-75">Holidays: 24/7</li>
+            </ul>
+          </div>
+        </div>
+        <div class="border-t border-white/10 pt-8 text-center text-sm opacity-75">
+          <p id="footer-text">© 2024 Dinaledi Leisure Resort. All rights reserved. Your paradise awaits.</p>
+          <div class="mt-4 space-x-6">
+            <a href="#" class="hover:text-emerald-300 transition-colors">Privacy Policy</a>
+            <a href="#" class="hover:text-emerald-300 transition-colors">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Keep your existing JavaScript code here (onConfigChange function and all other JS)
+    // The JavaScript from your original code remains compatible with the new HTML structure
+
+    const defaultConfig = {
+      background_color: "#f0fdfa",
+      surface_color: "#ffffff",
+      text_color: "#064e3b",
+      primary_action_color: "#0ea5e9",
+      secondary_action_color: "#10b981",
+      font_family: "Playfair Display",
+      font_size: 16,
+      resort_name: "Dinaledi Leisure Resort",
+      tagline: "Your Dream Destination Awaits",
+      hero_subtitle: "Weddings • Parties • Celebrations • Relaxation",
+      cta_button: "Book Your Event",
+      about_title: "Welcome to Paradise",
+      about_description: "Nestled in the heart of tranquility, Dinaledi Leisure Resort is your perfect escape for unforgettable moments. Whether you're planning a magical wedding, hosting a grand celebration, or simply seeking relaxation by our pristine pools, we offer world-class facilities and exceptional service to make every moment special.",
+      amenities_title: "World-Class Amenities",
+      events_title: "Perfect for Every Occasion",
+      gallery_title: "Experience the Beauty",
+      contact_title: "Book Your Experience",
+      footer_text: "© 2024 Dinaledi Leisure Resort. All rights reserved. Your paradise awaits."
+    };
+
+    async function onConfigChange(config) {
+      // Your existing onConfigChange function
+      const backgroundColor = config.background_color || defaultConfig.background_color;
+      const surfaceColor = config.surface_color || defaultConfig.surface_color;
+      const textColor = config.text_color || defaultConfig.text_color;
+      const primaryActionColor = config.primary_action_color || defaultConfig.primary_action_color;
+      const secondaryActionColor = config.secondary_action_color || defaultConfig.secondary_action_color;
+      const customFont = config.font_family || defaultConfig.font_family;
+      const baseSize = config.font_size || defaultConfig.font_size;
+
+      const baseFontStack = "Georgia, serif";
+
+      document.body.style.backgroundColor = backgroundColor;
+      document.body.style.color = textColor;
+      document.body.style.fontFamily = `${customFont}, ${baseFontStack}`;
+
+      const navbar = document.getElementById('navbar');
+      navbar.style.backgroundColor = backgroundColor;
+      navbar.style.color = textColor;
+
+      const navLinks = document.querySelectorAll('.nav-link');
+      navLinks.forEach(link => {
+        link.style.color = textColor;
+      });
+
+      // ... rest of your existing onConfigChange function
+    }
+
+    // Keep all other JavaScript functions from your original code
+    function mapToCapabilities(config) {
+      // ... your existing mapToCapabilities function
+    }
+
+    function mapToEditPanelValues(config) {
+      // ... your existing mapToEditPanelValues function
+    }
+
+    if (window.elementSdk) {
+      window.elementSdk.init({
+        defaultConfig,
+        onConfigChange,
+        mapToCapabilities,
+        mapToEditPanelValues
+      });
+    }
+
+    let lastScrollTop = 0;
+    window.addEventListener('scroll', () => {
+      const navbar = document.getElementById('navbar');
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      
+      if (scrollTop > 100) {
+        navbar.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.3)';
+      } else {
+        navbar.style.boxShadow = 'none';
+      }
+      
+      lastScrollTop = scrollTop;
+    });
+
+    document.getElementById('mobile-menu-btn').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', (e) => {
+        e.preventDefault();
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenu.classList.add('hidden');
+
+        const target = document.querySelector(anchor.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    document.getElementById('cta-button').addEventListener('click', () => {
+      document.getElementById('contact').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    // Add event card backgrounds
+    document.querySelectorAll('.event-card-1').forEach(card => {
+      card.style.backgroundImage = "url('https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')";
+    });
+    document.querySelectorAll('.event-card-2').forEach(card => {
+      card.style.backgroundImage = "url('https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')";
+    });
+    document.querySelectorAll('.event-card-3').forEach(card => {
+      card.style.backgroundImage = "url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')";
+    });
+    document.querySelectorAll('.event-card-4').forEach(card => {
+      card.style.backgroundImage = "url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')";
+    });
+  </script>
+</body>
+</html>
