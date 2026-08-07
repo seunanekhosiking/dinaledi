@@ -1,83 +1,11 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Dinaledi Leisure Resort — weddings, pools and accommodation in Makgakgapatse Village, Giyani.">
-  <meta name="theme-color" content="#17221b">
-  <title>Dinaledi Leisure Resort | Under Limpopo Skies</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="mobile-fixes.css">
-  <link rel="stylesheet" href="authentic.css">
-  <link rel="stylesheet" href="real-only.css">
-</head>
-<body>
-  <div class="cursor-glow" aria-hidden="true"></div>
-  <header class="site-header">
-    <a class="logo" href="#home" aria-label="Dinaledi home"><i>✦</i><span>Dinaledi<small>Leisure Resort</small></span></a>
-    <nav id="nav"><a href="#stay">Stay</a><a href="#celebrate">Celebrate</a><a href="#swim">Swim</a><a href="#gallery">Gallery</a><a href="#contact">Find us</a></nav>
-    <a class="book-link" href="tel:0769991323">Book your visit <span>↗</span></a>
-    <button class="menu" aria-expanded="false" aria-controls="nav" aria-label="Toggle menu"><i></i><i></i></button>
-  </header>
-
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-media" data-parallax><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="hero-shade"></div><div class="stars" aria-hidden="true"></div>
-      <div class="hero-copy reveal">
-        <p class="eyebrow">Makgakgapatse Village · Giyani</p>
-        <h1>Meet us<br>under the <em>stars.</em></h1>
-        <p>A place to arrive slowly, celebrate fully and leave with stories worth retelling.</p>
-        <div class="hero-actions"><a class="button sun" href="tel:0769991323">Plan your visit <span>↗</span></a><a class="text-link" href="#discover">Discover Dinaledi ↓</a></div>
-      </div>
-      <div class="hero-rating"><strong>4.3</strong><span>★★★★★<small>32 Google reviews</small></span></div>
-      <div class="hero-index"><span>22°</span><small>Limpopo warmth<br>all year round</small></div>
-    </section>
-
-    <section class="intro" id="discover">
-      <p class="section-mark">01 — Welcome</p>
-      <div class="intro-title reveal"><p class="eyebrow dark">Dinaledi means stars</p><h2>Your escape,<br><em>closer than you think.</em></h2></div>
-      <div class="intro-copy reveal"><p>Set along the R81 in Makgakgapatse Village, Dinaledi is made for easy weekends, joyful gatherings and time together beneath wide Limpopo skies.</p><a href="#contact">Find your way here <span>→</span></a></div>
-      <div class="promise"><span><b>01</b>Sleep over</span><span><b>02</b>Cool down</span><span><b>03</b>Celebrate</span></div>
-    </section>
-
-    <section class="experiences" aria-label="Resort experiences">
-      <article class="experience stay" id="stay" data-label="Accommodation"><div class="experience-photo"></div><div class="experience-copy"><span>01 / Stay</span><h3>Wake up<br>somewhere <em>different.</em></h3><p>Make the occasion last longer with accommodation at the resort.</p><a href="tel:0769991323">Ask about availability ↗</a></div></article>
-      <article class="experience celebrate" id="celebrate" data-label="Weddings"><div class="experience-photo"></div><div class="experience-copy"><span>02 / Celebrate</span><h3>Your day.<br>Your people.<br><em>Your moment.</em></h3><p>A local wedding destination made for unforgettable entrances, photographs and celebrations.</p><a href="tel:0769991323">Plan your celebration ↗</a></div></article>
-      <article class="experience swim" id="swim" data-label="Pools"><div class="experience-photo"></div><div class="experience-copy"><span>03 / Swim</span><h3>Leave the heat<br>at the <em>water's edge.</em></h3><p>Bring the family, find your spot and let a warm Limpopo afternoon drift by.</p><a href="tel:0769991323">Plan a pool day ↗</a></div></article>
-    </section>
-
-    <section class="marquee" aria-hidden="true"><div>Stay awhile&nbsp; ✦ &nbsp;Make a splash&nbsp; ✦ &nbsp;Celebrate together&nbsp; ✦ &nbsp;Stay awhile&nbsp; ✦ &nbsp;Make a splash&nbsp; ✦ &nbsp;Celebrate together&nbsp; ✦ &nbsp;</div></section>
-
-    <section class="gallery" id="gallery">
-      <div class="gallery-head"><div><p class="eyebrow dark">Real people · Real moments</p><h2>This is how<br><em>Dinaledi feels.</em></h2></div><p>Pool days, weddings and celebrations—captured by the people who were there.</p></div>
-      <div class="gallery-grid real-gallery">
-        <figure class="real r1"><figcaption>Make a splash</figcaption></figure>
-        <figure class="real r2"><figcaption>Say “I do”</figcaption></figure>
-        <figure class="real r3"><figcaption>Come together</figcaption></figure>
-        <figure class="real r4"><figcaption>Stay awhile</figcaption></figure>
-        <figure class="real r5"><figcaption>Bring your people</figcaption></figure>
-        <figure class="real r6"><figcaption>Celebrate here</figcaption></figure>
-        <figure class="real r7"><figcaption>Poolside</figcaption></figure>
-        <figure class="real r8"><figcaption>Good times</figcaption></figure>
-      </div>
-      <p class="photo-note">Real moments photographed at Dinaledi Leisure Resort.</p>
-    </section>
-
-    <section class="location">
-      <div class="location-photo" role="img" aria-label="Outside Dinaledi Leisure Resort"></div>
-      <div class="location-card reveal"><p class="eyebrow">Your destination</p><h2>Find us<br>on the R81.</h2><address>Makgakgapatse Village<br>R81, Giyani, 0826<br>South Africa</address><a class="button sun" href="https://www.google.com/maps/search/?api=1&query=Dinaledi+Leisure+Resort+Giyani" target="_blank" rel="noopener">Get directions <span>↗</span></a></div>
-    </section>
-
-    <section class="contact" id="contact">
-      <div class="contact-copy reveal"><p class="eyebrow">Your next memory starts here</p><h2>When are you<br><em>coming over?</em></h2><p>Call Dinaledi directly for accommodation, pool visits and wedding enquiries.</p></div>
-      <div class="contact-actions reveal"><a href="tel:0769991323"><small>Call to book</small><strong>076 999 1323</strong><span>↗</span></a><a href="https://www.tiktok.com/@dinaledi54" target="_blank" rel="noopener"><small>Follow the story</small><strong>@dinaledi54</strong><span>↗</span></a></div>
-    </section>
-  </main>
-
-  <footer><a class="logo" href="#home"><i>✦</i><span>Dinaledi<small>Leisure Resort</small></span></a><p>Weddings · Pools · Accommodation</p><div><a href="tel:0769991323">076 999 1323</a><a href="#home">Back to top ↑</a></div><small>© <span id="year"></span> Dinaledi Leisure Resort · Makgakgapatse Village</small></footer>
-  <script src="script.js"></script>
-</body>
-</html>
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#14251a"><meta name="description" content="Experience Dinaledi Leisure Resort — weddings, pools and accommodation in Makgakgapatse Village, Giyani."><title>Dinaledi Leisure Resort | A Day Together</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet"><link rel="stylesheet" href="experience.css"></head>
+<body><header><a class="logo" href="#" data-go="0"><i>✦</i><span>Dinaledi<small>Leisure Resort</small></span></a><p>Makgakgapatse Village · Giyani</p><button class="menu-button" aria-label="Open experiences"><i></i><i></i></button></header>
+<nav class="menu-panel"><p>Choose an experience</p><button data-go="0">Welcome</button><button data-go="1">Swim</button><button data-go="2">Celebrate</button><button data-go="3">Stay</button><button data-go="4">Visit</button></nav>
+<main><div class="track" id="track">
+  <section class="scene welcome"><div class="welcome-grid" aria-hidden="true"><i></i><i></i><i></i><i></i></div><div class="shade"></div><div class="copy"><p class="eyebrow">Your day at Dinaledi</p><h1>Come as you are.<br>Leave with <em>stories.</em></h1><p>Swim, celebrate, sleep over—and experience a place built around being together.</p><button class="action" data-next>Begin the day <span>→</span></button></div><p class="gesture">Scroll or swipe to explore <b>→</b></p></section>
+  <section class="scene swim"><div class="pool-photo"></div><div class="pool-tint"></div><div class="copy"><p class="eyebrow">01 — Swim</p><h2>Make your<br>own <em>waves.</em></h2><p>Touch the water. Warm Limpopo afternoons are better when everyone jumps in.</p><a class="action" href="tel:0769991323">Ask about pool visits <span>↗</span></a></div><div class="ripple-zone" aria-label="Touch to make water ripples"><span>Touch the pool</span></div></section>
+  <section class="scene celebrate"><div class="celebrate-bg"></div><div class="shade"></div><div class="copy"><p class="eyebrow">02 — Celebrate</p><h2>Gather the<br><em>good times.</em></h2><p>Move the memories around. Weddings, music and the people who make the occasion yours.</p><a class="action" href="tel:0769991323">Plan your celebration <span>↗</span></a></div><div class="memory-board" aria-label="Move the celebration photographs"><figure class="card c1"><img src="images/unnamed (28).jpg" alt="Wedding at Dinaledi"><figcaption>The big day</figcaption></figure><figure class="card c2"><img src="images/unnamed (29).jpg" alt="Guests at Dinaledi"><figcaption>Dress for it</figcaption></figure><figure class="card c3"><img src="images/unnamed (15).jpg" alt="Celebration crowd"><figcaption>Everyone together</figcaption></figure><figure class="card c4"><img src="images/unnamed (32).jpg" alt="Friends celebrating"><figcaption>Your people</figcaption></figure></div></section>
+  <section class="scene stay" id="stay"><div class="day-photo"></div><div class="night-photo"></div><div class="night-sky"></div><div class="shade"></div><div class="copy"><p class="eyebrow">03 — Stay</p><h2>Let the day<br>turn into <em>night.</em></h2><p>Drag the sun towards evening, then stay over at Dinaledi.</p><a class="action" href="tel:0769991323">Check accommodation <span>↗</span></a></div><div class="time-control"><span>Day</span><input id="sunset" type="range" min="0" max="100" value="20" aria-label="Change from day to night"><span>Stars</span><small>Drag the sunset</small></div></section>
+  <section class="scene visit"><div class="visit-photo"></div><div class="shade"></div><div class="visit-copy"><p class="eyebrow">04 — Your turn</p><h2>Choose your<br><em>Dinaledi day.</em></h2><p>Makgakgapatse Village, R81, Giyani, 0826</p><div class="links"><a href="tel:0769991323"><small>Call</small>076 999 1323 <b>↗</b></a><a href="https://www.google.com/maps/search/?api=1&query=Dinaledi+Leisure+Resort+Giyani" target="_blank" rel="noopener"><small>Directions</small>Open Google Maps <b>↗</b></a><a href="https://www.tiktok.com/@dinaledi54" target="_blank" rel="noopener"><small>Follow</small>@dinaledi54 <b>↗</b></a></div></div></section>
+</div></main>
+<div class="progress"><span id="current">01</span><i><b id="bar"></b></i><span>05</span><p id="label">Welcome</p></div><button class="previous" aria-label="Previous experience">←</button><button class="next" aria-label="Next experience">→</button><script src="experience.js"></script></body></html>
