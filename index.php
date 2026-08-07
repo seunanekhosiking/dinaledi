@@ -8,11 +8,11 @@
   <title>Dinaledi Leisure Resort | Under Limpopo Skies</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://images.unsplash.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="mobile-fixes.css">
   <link rel="stylesheet" href="authentic.css">
+  <link rel="stylesheet" href="real-only.css">
 </head>
 <body>
   <div class="cursor-glow" aria-hidden="true"></div>
@@ -25,7 +25,7 @@
 
   <main>
     <section class="hero" id="home">
-      <div class="hero-media" data-parallax></div><div class="hero-shade"></div><div class="stars" aria-hidden="true"></div>
+      <div class="hero-media" data-parallax><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="hero-shade"></div><div class="stars" aria-hidden="true"></div>
       <div class="hero-copy reveal">
         <p class="eyebrow">Makgakgapatse Village · Giyani</p>
         <h1>Meet us<br>under the <em>stars.</em></h1>
