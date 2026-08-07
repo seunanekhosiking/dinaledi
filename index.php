@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="mobile-fixes.css">
+  <link rel="stylesheet" href="authentic.css">
 </head>
 <body>
   <div class="cursor-glow" aria-hidden="true"></div>
@@ -51,11 +52,18 @@
     <section class="marquee" aria-hidden="true"><div>Stay awhile&nbsp; ✦ &nbsp;Make a splash&nbsp; ✦ &nbsp;Celebrate together&nbsp; ✦ &nbsp;Stay awhile&nbsp; ✦ &nbsp;Make a splash&nbsp; ✦ &nbsp;Celebrate together&nbsp; ✦ &nbsp;</div></section>
 
     <section class="gallery" id="gallery">
-      <div class="gallery-head"><div><p class="eyebrow dark">A glimpse of the escape</p><h2>Picture yourself<br><em>at Dinaledi.</em></h2></div><p>From sunlit afternoons to evenings under the stars.</p></div>
-      <div class="gallery-grid">
-        <figure class="g1"><figcaption>Arrive</figcaption></figure><figure class="g2"><figcaption>Unwind</figcaption></figure><figure class="g3"><figcaption>Gather</figcaption></figure><figure class="g4"><figcaption>Celebrate</figcaption></figure>
+      <div class="gallery-head"><div><p class="eyebrow dark">Real people · Real moments</p><h2>This is how<br><em>Dinaledi feels.</em></h2></div><p>Pool days, weddings and celebrations—captured by the people who were there.</p></div>
+      <div class="gallery-grid real-gallery">
+        <figure class="real r1"><figcaption>Make a splash</figcaption></figure>
+        <figure class="real r2"><figcaption>Say “I do”</figcaption></figure>
+        <figure class="real r3"><figcaption>Come together</figcaption></figure>
+        <figure class="real r4"><figcaption>Stay awhile</figcaption></figure>
+        <figure class="real r5"><figcaption>Bring your people</figcaption></figure>
+        <figure class="real r6"><figcaption>Celebrate here</figcaption></figure>
+        <figure class="real r7"><figcaption>Poolside</figcaption></figure>
+        <figure class="real r8"><figcaption>Good times</figcaption></figure>
       </div>
-      <p class="photo-note">Preview imagery sets the mood. Dinaledi's own photographs can be connected here for the final launch.</p>
+      <p class="photo-note">Real moments photographed at Dinaledi Leisure Resort.</p>
     </section>
 
     <section class="location">
