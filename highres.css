@@ -1,0 +1,17 @@
+/* High-resolution photography supplied by Dinaledi. */
+.welcome-grid i:nth-child(1){background-image:url("images/web/arrival.jpg")}
+.welcome-grid i:nth-child(2){background-image:url("images/web/pool-wide.jpg")}
+.welcome-grid i:nth-child(3){background-image:url("images/web/gathering.jpg")}
+.welcome-grid i:nth-child(4){background-image:url("images/web/evening.jpg")}
+.pool-photo{background-image:url("images/web/pool-guest-1.jpg");background-position:center 38%}
+.celebrate-bg{background-image:url("images/web/celebration-crowd.jpg");background-position:center 42%}
+.day-photo{background-image:url("images/web/stay-guest.jpg");background-position:center 38%}
+.night-photo{background-image:url("images/web/evening.jpg");background-position:center 45%}
+.visit-photo{background-image:url("images/web/arrival.jpg");background-position:center 42%}
+
+@media(max-width:760px){
+  .pool-photo{background-position:58% center}
+  .celebrate-bg{background-position:52% center}
+  .day-photo{background-position:58% center}
+  .visit-photo{background-position:55% center}
+}
