@@ -1,0 +1,10 @@
+@media(max-width:760px){
+  .builder,.builder-copy,.builder-card,.idea{min-width:0;max-width:100%}
+  .builder{overflow:hidden}
+  .builder-card{width:100%;overflow:hidden}
+  .pick{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%}
+  .pick[data-pick="finish"]{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .pick button{min-width:0;width:100%;padding:11px 3px;font-size:7px;white-space:normal}
+  .idea strong{overflow-wrap:anywhere;word-break:normal}
+}
+html,body{overflow-x:hidden;max-width:100%}
