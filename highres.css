@@ -75,4 +75,4 @@
   .journey-nav button i{display:none}
   .progress{display:none}
 }
-@media(max-width:800px){.journey-nav{display:grid;grid-template-columns:repeat(6,minmax(0,1fr))}.journey-nav button{width:100%}}
+@media(max-width:800px){.journey-nav{display:grid;width:calc(100vw - 16px);right:auto;grid-template-columns:repeat(6,minmax(0,1fr))}.journey-nav button{width:100%}}
