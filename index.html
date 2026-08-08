@@ -17,6 +17,7 @@
       <div class="review-label">Website design proposals</div>
       <div class="intro-copy"><small>THIS IS NOT THE FINAL WEBSITE</small><h1>Choose the<br><em>design theme.</em></h1><p>Open both proposals below. Compare the visual style, layout and experience, then choose the direction that should become the final Dinaledi website.</p></div>
       <div class="steps"><span><b>01</b>Open a proposal</span><span><b>02</b>Explore the full page</span><span><b>03</b>Choose one direction</span></div>
+      <nav class="quick-links" aria-label="Open a proposal"><a href="prop1/">Open Proposal 1</a><a href="prop2/">Open Proposal 2</a></nav>
     </section>
 
     <section class="proposals" aria-label="Website proposals">
