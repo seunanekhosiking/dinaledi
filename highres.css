@@ -63,3 +63,16 @@
   .poster.upcoming p{font-size:8px}
   .poster.past span{left:9px;bottom:8px}.poster.past span b{font-size:13px}
 }
+/* The whole service journey stays visible and directly accessible. */
+.journey-nav{position:fixed;z-index:42;right:20px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:5px;padding:7px;background:rgba(7,20,12,.58);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.15)}
+.journey-nav button{display:grid;grid-template-columns:23px 1fr;align-items:center;width:102px;padding:8px 7px;border:0;background:transparent;color:rgba(255,255,255,.58);text-align:left;font-size:7px;letter-spacing:1px;text-transform:uppercase;cursor:pointer;transition:.25s}
+.journey-nav button i{font-style:normal;color:var(--sun);font-size:6px}
+.journey-nav button.active{background:var(--sun);color:var(--forest)}
+.journey-nav button.active i{color:var(--forest)}
+@media(max-width:800px){
+  .journey-nav{left:8px;right:8px;top:64px;transform:none;flex-direction:row;gap:1px;padding:4px;overflow:hidden}
+  .journey-nav button{display:flex;flex:1;min-width:0;width:auto;padding:7px 2px;justify-content:center;font-size:5.5px;letter-spacing:0;text-align:center}
+  .journey-nav button i{display:none}
+  .progress{display:none}
+}
+@media(max-width:800px){.journey-nav{display:grid;grid-template-columns:repeat(6,minmax(0,1fr))}.journey-nav button{width:100%}}

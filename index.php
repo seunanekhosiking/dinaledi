@@ -32,25 +32,25 @@
 
     <section class="scene swim">
       <div class="pool-photo"></div><div class="pool-tint"></div>
-      <div class="copy"><p class="eyebrow">01 — Pool days</p><h2>Come back<br>for the <em>feeling.</em></h2><p>Blue water, open air and your favourite people. Make Dinaledi the plan when the next warm day arrives.</p><a class="action" href="pool/">Enter the pool experience <span>↗</span></a></div>
+      <div class="copy"><p class="eyebrow">01 — Pool days</p><h2>Come back<br>for the <em>feeling.</em></h2><p>Blue water, open air and your favourite people. Make Dinaledi the plan when the next warm day arrives.</p><a class="action" href="tel:0769991323">Ask about pool visits <span>↗</span></a></div>
       <div class="ripple-zone" aria-label="Touch to make water ripples"><span>Touch the pool</span></div>
     </section>
 
     <section class="scene celebrate">
       <div class="celebrate-bg"></div><div class="shade"></div>
-      <div class="copy wedding-copy"><p class="eyebrow">02 — Weddings & events</p><h2>Picture your<br><em>day here.</em></h2><p>Bring the vows, the music and everyone you love. Dinaledi gives your wedding or celebration room to feel alive.</p><div class="venue-points"><span>Wedding venue</span><span>Private celebrations</span><span>Group gatherings</span></div><a class="action" href="weddings/">Explore weddings <span>↗</span></a></div>
+      <div class="copy wedding-copy"><p class="eyebrow">02 — Weddings & events</p><h2>Picture your<br><em>day here.</em></h2><p>Bring the vows, the music and everyone you love. Dinaledi gives your wedding or celebration room to feel alive.</p><div class="venue-points"><span>Wedding venue</span><span>Private celebrations</span><span>Group gatherings</span></div><a class="action" href="tel:0769991323">Ask about your date <span>↗</span></a></div>
       <div class="memory-board venue-board" aria-label="Dinaledi celebrations"><figure class="card c1"><img src="images/unnamed (28).jpg" alt="Bride at Dinaledi"><figcaption>Your big day</figcaption></figure><figure class="card c2"><img src="images/web/celebration-wide.jpg" alt="Guests celebrating at Dinaledi"><figcaption>Your guest list</figcaption></figure><figure class="card c3"><img src="images/web/celebration-crowd.jpg" alt="An outdoor event at Dinaledi"><figcaption>Your atmosphere</figcaption></figure></div>
     </section>
 
     <section class="scene stay" id="stay">
       <div class="day-photo"></div><div class="night-photo"></div><div class="night-sky"></div><div class="shade"></div>
-      <div class="copy"><p class="eyebrow">03 — Accommodation</p><h2>Stay after<br>the <em>last song.</em></h2><p>Turn the celebration, pool day or weekend away into an overnight stay. Call for current accommodation options and availability.</p><a class="action" href="accommodation/">Plan an overnight stay <span>↗</span></a></div>
+      <div class="copy"><p class="eyebrow">03 — Accommodation</p><h2>Stay after<br>the <em>last song.</em></h2><p>Turn the celebration, pool day or weekend away into an overnight stay. Call for current accommodation options and availability.</p><a class="action" href="tel:0769991323">Check availability <span>↗</span></a></div>
       <div class="time-control"><span>Day</span><input id="sunset" type="range" min="0" max="100" value="20" aria-label="Change from day to night"><span>Stars</span><small>Drag the day into night</small></div>
     </section>
 
     <section class="scene events">
       <div class="events-photo"></div><div class="events-shade"></div>
-      <div class="events-intro"><p class="eyebrow">04 — Official noticeboard</p><h2>What’s<br><em>happening.</em></h2><p>Upcoming events, announcements and highlights from days already shared at Dinaledi.</p><a class="action" href="events/">Open the noticeboard <span>↗</span></a></div>
+      <div class="events-intro"><p class="eyebrow">04 — Official noticeboard</p><h2>What’s<br><em>happening.</em></h2><p>Upcoming events, announcements and highlights from days already shared at Dinaledi.</p><a class="action" href="tel:0769991323">Ask what is coming <span>↗</span></a></div>
       <div class="poster-board">
         <article class="poster upcoming"><small>Upcoming</small><div><b>Next event</b><strong>Announcement<br>coming soon</strong><p>Official posters and booking details will appear here.</p></div><a href="tel:0769991323">Ask what’s next →</a></article>
         <article class="poster past"><img src="images/web/gathering.jpg" alt="Past gathering at Dinaledi"><span><small>Past event</small><b>Dinaledi moments</b></span></article>
@@ -64,6 +64,7 @@
     </section>
   </div></main>
 
+<nav class="journey-nav" aria-label="Jump to a service"><button class="active" data-go="0"><i>00</i>Discover</button><button data-go="1"><i>01</i>Pool</button><button data-go="2"><i>02</i>Weddings</button><button data-go="3"><i>03</i>Stay</button><button data-go="4"><i>04</i>Events</button><button data-go="5"><i>05</i>Visit</button></nav>
   <div class="progress"><span id="current">01</span><i><b id="bar"></b></i><span>06</span><p id="label">Discover</p></div>
   <button class="previous" aria-label="Previous experience">←</button><button class="next" aria-label="Next experience">→</button>
   <script src="experience.js"></script>
