@@ -1,11 +1,71 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#14251a"><meta name="description" content="Experience Dinaledi Leisure Resort — weddings, pools and accommodation in Makgakgapatse Village, Giyani."><title>Dinaledi Leisure Resort | A Day Together</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet"><link rel="stylesheet" href="experience.css"><link rel="stylesheet" href="highres.css"></head>
-<body><header><a class="logo" href="#" data-go="0"><i>✦</i><span>Dinaledi<small>Leisure Resort</small></span></a><p>Makgakgapatse Village · Giyani</p><button class="menu-button" aria-label="Open experiences"><i></i><i></i></button></header>
-<nav class="menu-panel"><p>Choose an experience</p><button data-go="0">Welcome</button><button data-go="1">Swim</button><button data-go="2">Celebrate</button><button data-go="3">Stay</button><button data-go="4">Visit</button></nav>
-<main><div class="track" id="track">
-  <section class="scene welcome"><div class="welcome-grid" aria-hidden="true"><i></i><i></i><i></i><i></i></div><div class="shade"></div><div class="copy"><p class="eyebrow">Your day at Dinaledi</p><h1>Come as you are.<br>Leave with <em>stories.</em></h1><p>Swim, celebrate, sleep over—and experience a place built around being together.</p><button class="action" data-next>Begin the day <span>→</span></button></div><p class="gesture">Scroll or swipe to explore <b>→</b></p></section>
-  <section class="scene swim"><div class="pool-photo"></div><div class="pool-tint"></div><div class="copy"><p class="eyebrow">01 — Swim</p><h2>Make your<br>own <em>waves.</em></h2><p>Touch the water. Warm Limpopo afternoons are better when everyone jumps in.</p><a class="action" href="tel:0769991323">Ask about pool visits <span>↗</span></a></div><div class="ripple-zone" aria-label="Touch to make water ripples"><span>Touch the pool</span></div></section>
-  <section class="scene celebrate"><div class="celebrate-bg"></div><div class="shade"></div><div class="copy"><p class="eyebrow">02 — Celebrate</p><h2>Gather the<br><em>good times.</em></h2><p>Move the memories around. Weddings, music and the people who make the occasion yours.</p><a class="action" href="tel:0769991323">Plan your celebration <span>↗</span></a></div><div class="memory-board" aria-label="Move the celebration photographs"><figure class="card c1"><img src="images/web/celebration-wide.jpg" alt="Wedding at Dinaledi"><figcaption>The big day</figcaption></figure><figure class="card c2"><img src="images/web/celebration-friends.jpg" alt="Guests at Dinaledi"><figcaption>Dress for it</figcaption></figure><figure class="card c3"><img src="images/web/celebration-crowd.jpg" alt="Celebration crowd"><figcaption>Everyone together</figcaption></figure><figure class="card c4"><img src="images/web/community.jpg" alt="Friends celebrating"><figcaption>Your people</figcaption></figure></div></section>
-  <section class="scene stay" id="stay"><div class="day-photo"></div><div class="night-photo"></div><div class="night-sky"></div><div class="shade"></div><div class="copy"><p class="eyebrow">03 — Stay</p><h2>Let the day<br>turn into <em>night.</em></h2><p>Drag the sun towards evening, then stay over at Dinaledi.</p><a class="action" href="tel:0769991323">Check accommodation <span>↗</span></a></div><div class="time-control"><span>Day</span><input id="sunset" type="range" min="0" max="100" value="20" aria-label="Change from day to night"><span>Stars</span><small>Drag the sunset</small></div></section>
-  <section class="scene visit"><div class="visit-photo"></div><div class="shade"></div><div class="visit-copy"><p class="eyebrow">04 — Your turn</p><h2>Choose your<br><em>Dinaledi day.</em></h2><p>Makgakgapatse Village, R81, Giyani, 0826</p><div class="links"><a href="tel:0769991323"><small>Call</small>076 999 1323 <b>↗</b></a><a href="https://www.google.com/maps/search/?api=1&query=Dinaledi+Leisure+Resort+Giyani" target="_blank" rel="noopener"><small>Directions</small>Open Google Maps <b>↗</b></a><a href="https://www.tiktok.com/@dinaledi54" target="_blank" rel="noopener"><small>Follow</small>@dinaledi54 <b>↗</b></a></div></div></section>
-</div></main>
-<div class="progress"><span id="current">01</span><i><b id="bar"></b></i><span>05</span><p id="label">Welcome</p></div><button class="previous" aria-label="Previous experience">←</button><button class="next" aria-label="Next experience">→</button><script src="experience.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#14251a">
+  <meta name="description" content="Swim, stay and celebrate at Dinaledi Leisure Resort — a wedding and event venue with pools and accommodation in Makgakgapatse Village, Giyani.">
+  <title>Dinaledi Leisure Resort | Swim, Stay & Celebrate</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="experience.css">
+  <link rel="stylesheet" href="highres.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="#" data-go="0"><i>✦</i><span>Dinaledi<small>Leisure Resort</small></span></a>
+    <p>Makgakgapatse Village · Giyani</p>
+    <button class="menu-button" aria-label="Open experiences"><i></i><i></i></button>
+  </header>
+
+  <nav class="menu-panel" aria-label="Experiences">
+    <p>Choose your Dinaledi</p>
+    <button data-go="0">Discover</button><button data-go="1">Pool days</button><button data-go="2">Weddings & events</button><button data-go="3">Accommodation</button><button data-go="4">What's on</button><button data-go="5">Plan your visit</button>
+  </nav>
+
+  <main><div class="track" id="track">
+    <section class="scene welcome">
+      <div class="welcome-grid" aria-hidden="true"><i></i><i></i><i></i><i></i></div><div class="shade"></div>
+      <div class="copy"><p class="eyebrow">Pool · Venue · Accommodation</p><h1>Your next<br><em>good story</em><br>starts here.</h1><p>A Limpopo escape for pool days, celebrations worth dressing up for, and nights you do not have to rush home from.</p><button class="action" data-next>Find your reason to visit <span>→</span></button></div>
+    </section>
+
+    <section class="scene swim">
+      <div class="pool-photo"></div><div class="pool-tint"></div>
+      <div class="copy"><p class="eyebrow">01 — Pool days</p><h2>Come back<br>for the <em>feeling.</em></h2><p>Blue water, open air and your favourite people. Make Dinaledi the plan when the next warm day arrives.</p><a class="action" href="tel:0769991323">Plan a pool visit <span>↗</span></a></div>
+      <div class="ripple-zone" aria-label="Touch to make water ripples"><span>Touch the pool</span></div>
+    </section>
+
+    <section class="scene celebrate">
+      <div class="celebrate-bg"></div><div class="shade"></div>
+      <div class="copy wedding-copy"><p class="eyebrow">02 — Weddings & events</p><h2>Picture your<br><em>day here.</em></h2><p>Bring the vows, the music and everyone you love. Dinaledi gives your wedding or celebration room to feel alive.</p><div class="venue-points"><span>Wedding venue</span><span>Private celebrations</span><span>Group gatherings</span></div><a class="action" href="tel:0769991323">Ask about your date <span>↗</span></a></div>
+      <div class="memory-board venue-board" aria-label="Dinaledi celebrations"><figure class="card c1"><img src="images/unnamed (28).jpg" alt="Bride at Dinaledi"><figcaption>Your big day</figcaption></figure><figure class="card c2"><img src="images/web/celebration-wide.jpg" alt="Guests celebrating at Dinaledi"><figcaption>Your guest list</figcaption></figure><figure class="card c3"><img src="images/web/celebration-crowd.jpg" alt="An outdoor event at Dinaledi"><figcaption>Your atmosphere</figcaption></figure></div>
+    </section>
+
+    <section class="scene stay" id="stay">
+      <div class="day-photo"></div><div class="night-photo"></div><div class="night-sky"></div><div class="shade"></div>
+      <div class="copy"><p class="eyebrow">03 — Accommodation</p><h2>Stay after<br>the <em>last song.</em></h2><p>Turn the celebration, pool day or weekend away into an overnight stay. Call for current accommodation options and availability.</p><a class="action" href="tel:0769991323">Check availability <span>↗</span></a></div>
+      <div class="time-control"><span>Day</span><input id="sunset" type="range" min="0" max="100" value="20" aria-label="Change from day to night"><span>Stars</span><small>Drag the day into night</small></div>
+    </section>
+
+    <section class="scene events">
+      <div class="events-photo"></div><div class="events-shade"></div>
+      <div class="events-intro"><p class="eyebrow">04 — Official noticeboard</p><h2>What’s<br><em>happening.</em></h2><p>Upcoming events, announcements and highlights from days already shared at Dinaledi.</p><a class="action" href="https://www.tiktok.com/@dinaledi54" target="_blank" rel="noopener">Follow live updates <span>↗</span></a></div>
+      <div class="poster-board">
+        <article class="poster upcoming"><small>Upcoming</small><div><b>Next event</b><strong>Announcement<br>coming soon</strong><p>Official posters and booking details will appear here.</p></div><a href="tel:0769991323">Ask what’s next →</a></article>
+        <article class="poster past"><img src="images/web/gathering.jpg" alt="Past gathering at Dinaledi"><span><small>Past event</small><b>Dinaledi moments</b></span></article>
+        <article class="poster past"><img src="images/web/evening.jpg" alt="Evening event at Dinaledi"><span><small>Past event</small><b>After sunset</b></span></article>
+      </div>
+    </section>
+
+    <section class="scene visit">
+      <div class="visit-photo"></div><div class="shade"></div>
+      <div class="visit-copy"><p class="eyebrow">05 — Make the plan</p><h2>See you at<br><em>Dinaledi.</em></h2><p>Makgakgapatse Village, R81, Giyani, 0826</p><div class="links"><a href="tel:0769991323"><small>Bookings & enquiries</small>076 999 1323 <b>↗</b></a><a href="https://www.google.com/maps/search/?api=1&query=Dinaledi+Leisure+Resort+Giyani" target="_blank" rel="noopener"><small>Get there</small>Open Google Maps <b>↗</b></a><a href="https://www.tiktok.com/@dinaledi54" target="_blank" rel="noopener"><small>Events & updates</small>@dinaledi54 <b>↗</b></a></div></div>
+    </section>
+  </div></main>
+
+  <div class="progress"><span id="current">01</span><i><b id="bar"></b></i><span>06</span><p id="label">Discover</p></div>
+  <button class="previous" aria-label="Previous experience">←</button><button class="next" aria-label="Next experience">→</button>
+  <script src="experience.js"></script>
+</body>
+</html>
