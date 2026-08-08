@@ -28,3 +28,4 @@
 }
 .quick-links{display:none}
 @media(max-width:760px){.steps{display:none}.quick-links{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:28px}.quick-links a{padding:13px 6px;background:var(--lime);border:2px solid var(--ink);box-shadow:3px 3px 0 var(--ink);text-align:center;text-decoration:none;font-size:8px;font-weight:700;text-transform:uppercase}}
+.proposal[data-href]{cursor:pointer;transition:translate .25s,box-shadow .25s}.proposal[data-href]:hover,.proposal[data-href]:focus-visible{translate:0 -5px;box-shadow:12px 14px 0 var(--ink);outline:none}.proposal[data-href]:focus-visible{outline:4px solid var(--lime);outline-offset:5px}
