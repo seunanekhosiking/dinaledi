@@ -56,3 +56,4 @@ body{overflow-x:clip}
   .itinerary-head h2,.decision-copy h2,.builder h2,.arrival-copy h2,.questions h2{font-size:64px}
   .route-content h3{font-size:45px}.finish h2{font-size:90px}
 }
+@media(max-width:760px){header b{font-size:14px;letter-spacing:-.5px;white-space:nowrap}}
